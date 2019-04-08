@@ -1,12 +1,31 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pagina de Chrsitian</title>
+<h1> MyCHAT </h1>
 </head>
 
 <body>
-Content of the document......
-</body>
 
+<SCRIPT  language=JavaScript> 
+function go(){
+if (document.form.password.value == document.form.login.value){ 
+        alert("Entraste");
+    } 
+    else{ 
+         alert("Password o Username incorrecto"); 
+    } 
+} 
+</SCRIPT> 
+
+<FORM name=form action="Christian.HTML">
+
+<P>Username:    <INPUT type="text" name=login> 
+<P>Password:    <INPUT type="password" name=password>
+
+<INPUT onclick=go() type=button value=Acceder> 
+
+</FORM> 
+</body>
 </html>
